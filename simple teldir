@@ -34,7 +34,7 @@ void phoneBook :: showdata(){
 void main(){
     phoneBook rec;
     fstream file;
-    file.open("d:\\phone.dat", ios::ate | ios::in | ios::out | ios::binary);
+    file.open("phone.dat", ios::ate | ios::in | ios::out | ios::binary);
     char ch,nm[20],telno[6];
     int choice,found=0;
     while(1){
